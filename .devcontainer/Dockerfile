@@ -1,9 +1,9 @@
 FROM archlinux:latest
 
-RUN pacman -Syu --noconfirm base-devel sudo git bash nasm gcc hexyl \
+RUN pacman -Syu --noconfirm base-devel sudo git bash nasm gcc hexyl openssh \
  && echo 'export PS1="[ARCH-\u@\h:\w] \\$ "' >> /root/.bashrc \
  && echo "en_US.UTF-8 UTF-8" > /etc/locale.gen \
- && locale-gen \
+ && locale-gen
 
 SHELL ["/bin/bash", "-c"]
 
