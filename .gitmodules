@@ -1,3 +1,6 @@
 [submodule "noVNC"]
 	path = noVNC
 	url = https://github.com/novnc/noVNC
+[submodule "xpra-html5"]
+	path = xpra-html5
+	url = https://github.com/Xpra-org/xpra-html5
