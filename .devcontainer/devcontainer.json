@@ -6,5 +6,5 @@
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
-  "postCreateCommand": "sudo ssh-keygen -A; sudo /usr/bin/sshd; echo 'Welcome to Arch Linux!'"
+  "postCreateCommand": "sudo ssh-keygen -A; sudo sshd"
 }
